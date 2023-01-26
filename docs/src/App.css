@@ -1,0 +1,47 @@
+.contenedor {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  background-color: white;
+  border-radius: 15px;
+  width: 50vw;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+#new-quote {
+  background-color: cornflowerblue;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#new-quote:hover{
+  cursor: pointer;
+}
+
+#tweet-quote {
+  background-color: cornflowerblue;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
